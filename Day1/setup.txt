@@ -1,0 +1,19 @@
+MongoDb setup :
+
+    1.Install MongoDB Community Server.
+    2. MongoDB Compass.
+
+--------------------------------------------------------------------------------------    
+
+Nodejs installation command:
+
+    1.npm init -y
+    2.npm install express mongoose cors dotenv
+
+--------------------------------------------------------------------------------------
+
+Set up React Frontend:
+
+    1.npx create-react-app frontend
+    2.cd frontend
+    3.npm install axios react-router-dom
