@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+.env
+
+# Flutter/Dart (if used)
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.pub-cache/
+.idea/
+
+# Java
+*.class
+*.jar
+*.war
+target/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+
+# Log files
+*.log
+
+# npm debug files
+npm-debug.log*
+
+# Coverage reports
+coverage/
