@@ -1,0 +1,35 @@
+In Node.js, modules are a way to organize and reuse code.
+ There are two main types of modules:
+
+ 1.Core Modules (Built-in Modules) =>
+       -- These are provided by Node.js itself, no installation required. we can use them via require('module_name').
+       --  examples: 
+            a.fs=> for file read write operations.
+            b.http=> for http server
+            c.os=>for sharing information of operating system.
+            d.events=> for event handling.
+       -- use:
+           we can use core modules in a javascript file using import or require.
+           import {fs} from fs;
+               or
+           const fs=require("fs"); 
+
+           
+
+2.custom Modules(user defined):
+      -- custom modules are nothing but the modules which are created by users.
+        to create custom module :>
+        eg-
+        function sum(a,b){
+            return a+b;
+        };
+        module.exports={sum};
+
+        import this function to another file to resue this function
+
+        const sum=require("sum");
+ 
+      
+
+
+    
