@@ -1,7 +1,7 @@
 # Node.js
 node_modules/
 .env
-
+frontend/
 # Flutter/Dart (if used)
 .dart_tool/
 .packages
