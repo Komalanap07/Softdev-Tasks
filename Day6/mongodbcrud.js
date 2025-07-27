@@ -34,3 +34,5 @@ db.users.deleteOne({ name: "Komal" })
 
 // Delete many
 db.users.deleteMany({ age: { $lt: 24 } })
+
+
